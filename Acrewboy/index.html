@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<button id="openPopupBtn">Abrir Popup</button>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" id="closePopupBtn">&times;</span>
+        <img src="Ellipse 2.png">
+        <p id="title">CRIAR MINHA CONTA</p>
+        <p>Informe os seus dados abaixo para criar sua conta</p>
+        <div id="margin-top">
+        <input class="inputs-config" id="inputs-shorts" placeholder="nome*">
+        <input class="inputs-config" id="inputs-shorts" placeholder="sobrenome*"> 
+        <input class="inputs-config" id="inputs-shorts" placeholder="CPF*"> 
+        <input class="inputs-config" id="inputs-shorts" placeholder="RG"> 
+        <input class="inputs-config" id="inputs-large" placeholder="email">
+        <input class="inputs-config" id="inputs-large" placeholder="senha*">
+        </div>
+        <button class="cadastro">Criar Conta</button>
+        <p style="font-size: 12px;" >Voltar para o Login</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
