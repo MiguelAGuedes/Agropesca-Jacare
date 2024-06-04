@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.container1 input{
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 60%;
+    height: 25px;
+}
+.container1 h1{
+    font-family: "Metal Mania";
+    margin-left: 10px;
+}
+.container2 { 
+
+    background-color: black;
+    margin: 0;
+    padding-top: 10px;
+    border-top: 2px green solid;
+    height: 30px;
+}
+.container2 nav ul li{
+margin-top: 20px;
+}
+main{
+    background-color: white;
+}
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+    color: black;
+    border: #333 solid;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.featured-categories {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-categories h2 {
+    margin-bottom: 30px;
+}
+
+.category {
+    margin: auto;
+}
+
+.category img {
+    height: auto; width: auto; max-width: 700px; max-height: 500px; 
+  
+}
+
+.category h3 {
+    margin-top: 20px;
+}
+
+.newsletter {
+    background-color: #BCBCBC;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #BCBCBC;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #BCBCBC;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.social-media {
+    display: flex;
+    justify-content: center; /* Alinha os ícones horizontalmente ao centro */
+    align-items: center; /* Alinha os ícones verticalmente ao centro */
+    gap: 10px; /* Espaço entre os ícones */
+}
+.social-media img {
+    height: 40px; /* Altura uniforme para todos os ícones */
+    width: 40px; /* Largura uniforme para todos os ícones */
+}
