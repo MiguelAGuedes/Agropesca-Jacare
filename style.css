@@ -10,35 +10,76 @@ body {
     margin: auto;
     display: flex;
 }
-.container1 input{
+
+.dino {                          /* fto marca da loja */
+    height: 70px;
+    width: 70px;
+    margin-top: -60px;   
+    padding-left: 30px;
+    display: flex;
+    
+   
+}
+.lupa a{                         /*lupa da loja*/                        
+    display: flex;
+    height: 30px;
+    width: 30px;
+    padding-left: 76%;
+    margin-top: -48px;
+}
+.carro a{                            /*carrinho da loja*/
+    display: flex;
+    height: 30px;
+    width: 30px;
+    padding-left: 87%;
+    margin-top: -33px;
+}
+.perfil a{                               /*fotinha do perfil*/
+    display: flex;
+    height: 30px;
+    width: 30px;
+    padding-left: 93%;
+    margin-top: -28px;
+}
+
+.container1 input{           /* barra de pesquisa */
+    display: flex;
     padding-left: 20px;
     margin-left: 30px;
     margin-top: 5px;
     width: 60%;
     height: 25px;
+    border-radius: 10px;    
 }
-.container1 h1{
+.container1 h1{          /*escrita acrewboy*/
+    display: flex;
     font-family: "Metal Mania";
-    margin-left: 10px;
+    margin-left: 5px;
+    font-size: 45px;
+    margin-top: -9px;
+    color: white;
+}
+.container1 a{          /*escrita acrewboy*/
+    text-decoration: none;
 }
 .container2 { 
-
     background-color: black;
     margin: 0;
-    padding-top: 10px;
-    border-top: 2px green solid;
+    padding-top: 20px;
+    border-top: 2px green solid;    
     height: 30px;
 }
-.container2 nav ul li{
-margin-top: 20px;
+.container2 nav ul li{ /*barra de inicio e etc */ 
+    margin-top: 20px;
+
 }
-main{
+main{ 
     background-color: white;
 }
 header {
     background-color: black;
     color: #fff;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 header h1 {
@@ -56,9 +97,15 @@ nav ul li {
 }
 
 nav ul li a {
+    display: inline-flex;
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
+    padding-left: 11%;
+    font-family: jaldi;
+    font-size: 18px;
+    margin-top: -20px;
+    justify-content: center;
 }
 
 .hero {
@@ -106,10 +153,36 @@ nav ul li a {
 .category h3 {
     margin-top: 20px;
 }
-
+.contato h1 {           /*literal contato*/
+    display: flex;
+    padding-left: 5%;
+    margin-top: -103px;
+}
+.contato h2 {          /*email */
+    display: flex;
+    padding-left: 9%;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.contato h3 {           /* numero do zap */
+    display: flex;
+    padding-left: 9%;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.contato h4 {           /* img email */
+    display: flex;
+    padding-left: 6%;
+    margin-top: -70px;
+}
+.contato h5 {           /* img zap */
+    display: flex;
+    padding-left: 6%;
+    margin-top: -10px;
+}
 .newsletter {
     background-color: #BCBCBC;
-    color: #fff;
+    color: black;
     padding: 50px 0;
     text-align: center;
 }
@@ -136,7 +209,7 @@ nav ul li a {
 
 footer {
     background-color: #BCBCBC;
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 20px 0;
 }
