@@ -98,3 +98,25 @@ img{
     width: 80%;
     margin-left: 0;
 }
+.endereco{
+    margin-left: 0%;
+    display: grid;
+    grid-template-columns: 24rem 18rem;
+}
+.ane {
+    color: white;
+    border: 0px;
+    border-style: solid;
+    background-color: #369036;
+    border-radius: 4px;
+    height: 2rem;
+    width: 10rem; 
+    cursor: pointer;
+}
+.conteudo2{
+    display: grid;
+    grid-template-columns: 5% 70% 20%;
+    height: 35px;
+    padding-bottom: 4px;
+    padding-left: 1.5rem;
+}
