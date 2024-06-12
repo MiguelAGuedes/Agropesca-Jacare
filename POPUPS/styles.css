@@ -7,7 +7,14 @@ body {
     font-size: 16px;
 }
 
-.popup {
+/* POPUP */
+
+#openPopupBtn1 {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.popup1 {
     display: none;
     position: fixed; 
     z-index: 1; 
@@ -19,7 +26,7 @@ body {
     background-color: rgba(0,0,0,0.4);
 }
 
-.popup-content {
+.popup-content1 {
     background-color: #000;
     margin: 6% auto;
     padding: 20px;
@@ -85,17 +92,6 @@ body {
         left: 10px;
 }
 
-.cadastro {
-    color: white;
-    border: 0px;
-    border-style: solid;
-    background-color: #369036;
-    border-radius: 4px;
-    height: 2rem;
-    width: 85%;
-    margin-top: 4rem;
-}
-
 .login {
     font-family: "Playfair Display", serif;
     font-size: 45px;
@@ -120,6 +116,18 @@ body {
     margin-left: 40px;
 }
 
+.cadastro {
+    color: white;
+    border: 0px;
+    border-style: solid;
+    background-color: #369036;
+    border-radius: 4px;
+    height: 2rem;
+    width: 85%;
+    margin-top: 4rem;
+    cursor: pointer
+}
+
 .proximobutton {
     color: white;
     border: 2px;
@@ -130,11 +138,13 @@ body {
     height: 2.5rem;
     width: 25%;
     margin-top: 4rem;
+    cursor: pointer
 }
 
 .proximobutton1 {
     text-align: right;
     margin-right: 40px;
+    cursor: pointer
 }
 
 .proximoenviar {
@@ -148,6 +158,7 @@ body {
     width: 84%;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    cursor: pointer
 }
 
 .blocksconfig {
@@ -194,3 +205,95 @@ body {
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
+
+.popup {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+    background-color: #000;
+    margin: 6% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    max-width: 500px;
+    height: 60%;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: rgb(255, 255, 255);
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rastreamento1 {
+    display: grid;
+    grid-template-columns: 10rem 15rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: transparent;
+    margin: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #369036;
+    border-radius: 6px;
+    height: 3rem;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+
+.rastreamento2 {
+    background-color: transparent;
+    margin: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #369036;
+    border-radius: 6px;
+    height: auto;
+    width: 31.1rem;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    text-align: left;
+}
+.numDeRast {
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: 18rem 8rem 1rem;
+}
+
+#copias {
+    color: #369036;
+}
+#copias:hover {
+    cursor: pointer;
+}
+.rastreamento3 {
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: 3rem 2rem 4rem;
+}
+.rastreamento4 {
+    display: grid;
+    grid-template-columns: 3rem 2rem 4rem;
+    }
