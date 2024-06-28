@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acrewboy</title>
+    <link rel="stylesheet" href="endereco.css">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+    <!-- Div principal que engloba todo o conteúdo -->
+    <div class="global">
+
+        <!-- Div para o conteúdo específico da página -->
+        <div class="conteudo">
+
+            <!-- Seção do título -->
+            <div class="titulo">
+                Acrewboy
+            </div>
+
+            <!-- Formulário para coleta de dados -->
+            <form action="#">
+
+                <!-- Campo para a localização -->
+                <div class="campo">
+                    <label for="Localização">Localização</label>
+                    <input type="text" id="Localização" name="Localização" required>
+                </div>
+
+                <!-- Campos secundários agrupados -->
+                <div class="campo_secundario">
+                    <div>
+                        <label for="Nome">Nome</label>
+                        <input type="text" id="Nome" name="Nome" required>
+                    </div>
+                    <div>
+                        <label for="Sobrenome">Sobrenome</label>
+                        <input type="number" id="Sobrenome" name="Sobrenome" required>
+                    </div>
+                </div>
+
+                <!-- Campo para número de telefone -->
+                <div class="campo">
+                    <label class="label-form" for="Numero">Número</label>
+                    <input type="text" id="Numero" name="Numero">
+                </div>
+
+                <!-- Campo para CEP ou código postal -->
+                <div class="campo">
+                    <label for="CEP/Código postal">CEP/Código postal</label>
+                    <input type="text" id="CEP/Código postal" name="CEP/Código postal" required>
+                </div>
+
+                <!-- Campo para endereço -->
+                <div class="campo">
+                    <label for="Endereco">Endereço</label>
+                    <input type="text" id="Endereco" name="Endereco" required>
+                </div>
+
+                <!-- Campo para informações adicionais -->
+                <div class="campo">
+                    <label for="Informações">Informações adicionais </label>
+                    <input type="text" id="Informações" name="Informações" required>
+                </div>
+
+                <!-- Campos secundários agrupados para estado e cidade -->
+                <div class="campo_secundario">
+                    <div>
+                        <label for="estado">Estado</label>
+                        <input type="text" id="estado" name="estado" required>
+                    </div>
+                    <div>
+                        <label for="cidade">Cidade</label>
+                        <input type="number" id="Cidade" name="Cidade" required>
+                    </div>
+                </div>
+
+                <!-- Campo para o bairro -->
+                <div class="campo">
+
+                    <div>
+                        <label class="label-form" for="bairro">Bairro</label>
+                        <input type="text" id="bairro" name="bairro" required />
+                    </div>
+
+                    <!-- Botão para prosseguir -->
+                    <div class="buttonProximo">
+                        <button>Próximo</button>
+                    </div>
+            </form>
+        </div>
+
+
+    </div>
+
+
+    <!-- Container para exibição de um produto -->
+    <div class="container">
+        <img src="img/camisa_pre_treino.png" alt="Logo de produto" class="img-direita">
+        <h2 class="desc-img">Estampa Frente - Pre Treino Natural </h2>
+        <hr>
+        <h3>R$69.00</h3>
+    </div>
+
+</body>
+
+</html>
