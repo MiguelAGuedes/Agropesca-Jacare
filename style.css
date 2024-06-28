@@ -134,14 +134,48 @@ nav ul li a {
 
 .featured-categories {
     padding: 50px 0;
-    text-align: center;
+    text-align: center;     
+    border-top: 1px rgb(0, 0, 0) solid;
+    height: 1500px; ;    
+
+}
+.lancamentos {            /*escrita ''lançamentos'' */
+    font-size: 35px;
+    
 }
 
-.featured-categories h2 {
-    margin-bottom: 30px;
+.MV {
+    font-size: 35px;
+    padding-top: 300px;
+}
+/*imagens lançamento*/
+
+.ss {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.ss img {
+    height: 240px;
 }
 
-.category {
+.buttons{
+    display: none;
+    position: absolute;
+}
+.buttons button{
+    cursor: pointer;
+}
+.renato1:hover .buttons{
+    display: flex;
+}
+.renato1:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+/* fim das imagens lançamento*/
+
+.categossy {
     margin: auto;
 }
 
