@@ -1,0 +1,34 @@
+.boxcheck {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border: 1px;
+    border-radius: 3px;
+    border: solid;
+    border-color: black;
+}
+.Global {
+    padding-top: 1rem;
+    padding-left: 4rem;
+    display: grid;
+    grid-template-columns: 280px auto
+}
+.margem {
+    margin-top: -10px;
+    color: rgb(48, 48, 48);
+    font-weight: 0px;
+    cursor: pointer;
+}
+.branco {
+    height: 14rem;
+}
+.dd {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+
+}
+.dd img {
+    height: 240px;
+}
