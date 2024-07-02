@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.carousel {
+  position: relative;
+  max-width: 80%;
+  margin: 2em auto;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 100%;
+  display: block;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 1em;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+.global {
+  display: grid;
+  grid-template-columns: 15% 50% 33%;
+  padding: 20px;
+}
+.alinhamentoesquerda {
+  margin-top: 2.2rem;
+  position: relative;
+  left: 63%;
+}
+.inputconfig {
+  width: 10rem;
+  height: 2rem;
+  border: 1px;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.tamEquant {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 25px;
+}
+
+.compras {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 25px;
+}
+.botoes {
+  height: 2.5rem;
+  width: 10rem;
+  background-color: white;
+  border: 1px;
+  border-style: solid;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+.botoes:hover {
+  background-color: black;
+  color: white;
+}
+.envio {
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  height: 2rem;
+  width: 18rem;
+  border-radius: 20px;
+}
+.caixa {
+  width: 59%;
+  height: 2rem;
+  border: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: transparent;
+}
+.caixas {
+  height: 2rem;
+  border: 0;
+  width: 38%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: transparent;
+}
+.caixas:hover {
+cursor: pointer;
+}
+.Tamanho {
+  display: grid;
+  grid-template-columns: 15% 18% 15%;
+  padding: 1rem;
+  padding-left: 15%;
+}
+.texto {
+  padding: 5%;
+  width: 80%;
+  height: auto;
+}
+.star {
+  background-color: white;
+  border: 1px;
+  border-style: solid;
+  height: 2.2rem;
+  width: 5rem;
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+  left: 80%;
+}
+.star:hover {
+  background-color: black;
+  color: white;
+}
+.ava {
+  text-align: center;
+  width: 7rem;
+  height: 2rem;
+  background-color: lightgray;
+  border: 0;
+  border-bottom: 2px;
+  border-style: solid;
+}
+.coments {
+  text-align: center;
+  width: 7rem;
+  height: 2rem;
+}
+.alinhamento9 {
+  padding-left: 10%;
+  display: grid;
+  grid-template-columns: 15% 18%;
+}
+.avaliacao {
+  margin: 5%;
+  text-align: center;
+}
